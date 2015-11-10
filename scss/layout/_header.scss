@@ -1,0 +1,9 @@
+header {
+	color: #fff; /* white */
+	padding: 10px 0 15px 0;
+	@extend %bg_gradient;
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+	position: fixed;
+	margin-top: -80px;
+}

@@ -1,0 +1,53 @@
+
+/*********************** WEB FONTS **************************/
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:800,400,500|Roboto:400,400italic,900);
+
+ul li {
+	display: block;
+	padding: 5px 5px;
+	text-align: center;
+	width: 100%;
+	margin: 0 auto;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #fff; /* white */
+	text-shadow: $header_shadow;
+	font-weight: 500;
+}
+
+.selected {
+	font-weight: 800;
+}
+
+.post-title {
+	text-align: right;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: 1.1em;
+	padding-top: 10px;
+	margin-bottom: -10px;
+}
+
+.date-author {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	font-size: .85em;
+	padding: 5px 0;
+	text-align: right;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	padding: 5px 0;
+}
+
+p a {
+	text-decoration: none;
+	color: $gradient-color1;
+}
+p a:hover {
+	color: $gradient-color1;
+}

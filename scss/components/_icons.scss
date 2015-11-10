@@ -1,0 +1,6 @@
+.gradient-border {
+	@extend %bg_gradient;
+	margin: 15px 0 3px 0;
+	display: block;
+	height: 3px;
+}

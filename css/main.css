@@ -80,19 +80,19 @@ nav ul {
 header {
   color: #fff;
   /* white */
-  padding: 10px 0 15px 0;
+  padding: 5px 0 10px 0;
   font-family: 'Raleway', sans-serif;
   width: 100%;
   position: fixed;
   margin-top: -80px; }
 
 .main-content {
-  margin-top: 70px;
+  margin-top: 65px;
   color: #333;
   /* dark gray - gray20 */ }
 
 .blog-post {
-  padding: 20px 20px 40px;
+  padding: 12px 20px 40px;
   max-width: 600px;
   margin: 0 auto; }
 
@@ -195,7 +195,7 @@ p a:hover {
   height: 60px;
   position: fixed;
   right: 40px;
-  top: 5px; }
+  top: -1px; }
 
 .menu-btn div {
   display: inline-block;

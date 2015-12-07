@@ -82,6 +82,8 @@ nav ul {
 
 .under-construction .blog-post img {
 	border-radius: 50%;
+	border: 1px transparent; // IE11 workaround for border radius
+	border-style: solid; // IE11 workaround for border radius
 	display: block;
 	margin: 0 auto;
 	padding: 25px;
